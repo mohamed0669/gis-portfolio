@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GIS Project | Digitizing & Mapping</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #1e90ff, #004e92);
+  color: white;
+  padding: 50px 40px;
+  border-radius: 15px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* SECTIONS */
+.section {
+  background: white;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.section h2,
+.section h3 {
+  border-left: 5px solid #1e90ff;
+  padding-left: 10px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+/* IMAGE */
+.project-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* TAGS */
+.tag {
+  display: inline-block;
+  background: #1e90ff;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin: 5px 5px 0 0;
+  font-size: 14px;
+}
+
+/* BACK BUTTON */
+.back {
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>GIS Digitizing & Mapping</h1>
+    <p>GIS Digitizing for Multiple Areas</p>
+  </div>
+
+  <!-- OVERVIEW -->
+  <div class="section">
+    <h2>Project Overview</h2>
+    <p>
+      This project focuses on GIS digitizing and mapping for multiple regions,
+      converting raster and satellite data into accurate vector layers to support
+      spatial analysis and planning.
+    </p>
+  </div>
+
+  <!-- DATA & TOOLS -->
+  <div class="section grid">
+
+    <div>
+      <h2>Data Used</h2>
+      <ul>
+        <li>Satellite Imagery</li>
+        <li>Administrative Boundaries</li>
+        <li>Road Network (Line Data)</li>
+        <li>Land Parcels (Polygon Data)</li>
+        <li>Service Locations (Point Data)</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Tools & Software</h2>
+      <span class="tag">ArcGIS Pro</span>
+      <span class="tag">Spatial Analyst</span>
+      <span class="tag">QGIS</span>
+    </div>
+
+  </div>
+
+  <!-- METHODOLOGY -->
+  <div class="section">
+    <h2>Methodology</h2>
+    <ul>
+      <li>Georeferencing raster and satellite images</li>
+      <li>Digitizing features (points, lines, polygons)</li>
+      <li>Attribute data creation and editing</li>
+      <li>Topology checking and error correction</li>
+      <li>Map layout design and visualization</li>
+    </ul>
+  </div>
+
+  <!-- FINAL MAP -->
+  <div class="section">
+    <h2>Final Maps</h2>
+
+    <img src="images/6.jpg" class="project-img" alt="Digitizing Map">
+    <img src="images/Summary Letter Landscape.jpg" class="project-img" alt="Final GIS Map">
+
+  </div>
+
+  <!-- RESULTS -->
+  <div class="section">
+    <h2>Results & Conclusion</h2>
+    <p>
+      The project successfully produced accurate digital GIS layers for multiple
+      areas, enhancing spatial data quality and supporting decision-making processes
+      for urban and regional planning.
+    </p>
+  </div>
+
+  <!-- BACK -->
+ <a href="../index.html" class="back">← Back to Home</a>
+
+</div>
+
+</body>
+</html>
